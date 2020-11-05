@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ODataApiGeneration.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ODataApiGeneration.cs">
+      <DependentUpon>ODataApiGeneration.tt</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Learning.DAL.Generation\Learning.DAL.Generation.csproj" />
+    <ProjectReference Include="..\Learning.DAL.Models\Learning.DAL.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="ODataApiGeneration.tt">
+      <LastGenOutput>ODataApiGeneration.cs</LastGenOutput>
+      <Generator>TextTemplatingFileGeneratorCore</Generator>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OData" Version="7.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Learning.DAL.Generation\Learning.DAL.Generation.csproj" />
+    <ProjectReference Include="..\Learning.DAL.Models\Learning.DAL.Models.csproj" />
+  </ItemGroup>
+
+</Project>
