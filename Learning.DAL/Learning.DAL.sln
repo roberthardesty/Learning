@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning.DAL.Generation", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning.DAL.Models", "Learning.DAL.Models\Learning.DAL.Models.csproj", "{513E434C-E215-4D30-889C-55FB7135AFBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.DAL.Generation.Templates", "Learning.DAL.Generation.Templates\Learning.DAL.Generation.Templates.csproj", "{C67D2907-7463-40BE-AD4C-A34D251E5569}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learning.DAL.Generation.Templates", "Learning.DAL.Generation.Templates\Learning.DAL.Generation.Templates.csproj", "{C67D2907-7463-40BE-AD4C-A34D251E5569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learning.DAL.RoslynGeneration", "Learning.DAL.RoslynGeneration\Learning.DAL.RoslynGeneration.csproj", "{406B7062-B6BF-4CF7-808D-53096921F145}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C67D2907-7463-40BE-AD4C-A34D251E5569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C67D2907-7463-40BE-AD4C-A34D251E5569}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C67D2907-7463-40BE-AD4C-A34D251E5569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406B7062-B6BF-4CF7-808D-53096921F145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406B7062-B6BF-4CF7-808D-53096921F145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406B7062-B6BF-4CF7-808D-53096921F145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406B7062-B6BF-4CF7-808D-53096921F145}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -31,11 +31,11 @@ namespace Learning.DAL.Generation.Discovery {
                 {
                     cModel = parser.Dissect(resourceCollection);
                 }
-                catch (ArgumentException e)
+                catch (Exception)
                 {
-                    var showme = e;
                     continue;
                 }
+
                 yield return cModel;
             }
         }

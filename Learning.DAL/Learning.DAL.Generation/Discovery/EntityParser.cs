@@ -29,7 +29,7 @@ namespace Learning.DAL.Generation.Discovery {
         }
 
         private PropertyInfo FindKeyIn(Type t) {
-            var conventionKeyName = $"{t.Name}Id";
+            var conventionKeyName = $"{t.Name}ID";
             var candidates = t.GetProperties().Where(info => info.Name == conventionKeyName || info.GetCustomAttribute<KeyAttribute>() != null);
             Assert.True<ArgumentException>(candidates.Count() == 1, () => "Type has more than one or no key " + t.Name);
             return candidates.First();
