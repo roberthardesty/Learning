@@ -32,6 +32,7 @@ namespace Learning.DAL.Server
             services.AddScoped<IAdventureWorksContext, AdventureWorksContext>(_ =>
             {
                 var connectionString = Configuration["AzureDbConnection"];
+                var connectionString = Configuration["test-two"];
                 var builder = new DbContextOptionsBuilder<AdventureWorksContext>();
                 builder.UseSqlServer(connectionString);
                 return new AdventureWorksContext(builder.Options);
