@@ -2,7 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\Learning.DAL",
-    "\\Learning.Governance"
+    "\\Learning.Governance",
+    "\\Learning.Governance\\Learning.Governance.UI",
+    "\\Learning.Governance\\Learning.Governance.UI\\Pages",
+    "\\Learning.Governance\\Learning.Governance.UI\\Properties",
+    "\\Learning.Governance\\Learning.Governance.UI\\Shared",
+    "\\Learning.Governance\\Learning.Governance.UI\\wwwroot"
   ],
+  "SelectedNode": "\\Learning.Governance\\Learning.Governance.UI\\Pages\\Index.razor",
   "PreviewInSolutionExplorer": false
 }
