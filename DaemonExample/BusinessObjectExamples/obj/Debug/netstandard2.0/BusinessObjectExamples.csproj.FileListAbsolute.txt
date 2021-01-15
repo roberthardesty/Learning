@@ -1,9 +1,0 @@
-C:\Users\rmhar\WorkProjects\DaemonExample\BusinessObjectExamples\obj\Debug\netstandard2.0\BusinessObjectExamples.AssemblyInfoInputs.cache
-C:\Users\rmhar\WorkProjects\DaemonExample\BusinessObjectExamples\obj\Debug\netstandard2.0\BusinessObjectExamples.AssemblyInfo.cs
-C:\Users\rmhar\WorkProjects\DaemonExample\BusinessObjectExamples\obj\Debug\netstandard2.0\BusinessObjectExamples.csproj.CoreCompileInputs.cache
-C:\Users\rmhar\WorkProjects\DaemonExample\BusinessObjectExamples\bin\Debug\netstandard2.0\BusinessObjectExamples.deps.json
-C:\Users\rmhar\WorkProjects\DaemonExample\BusinessObjectExamples\bin\Debug\netstandard2.0\BusinessObjectExamples.dll
-C:\Users\rmhar\WorkProjects\DaemonExample\BusinessObjectExamples\bin\Debug\netstandard2.0\BusinessObjectExamples.pdb
-C:\Users\rmhar\WorkProjects\DaemonExample\BusinessObjectExamples\obj\Debug\netstandard2.0\BusinessObjectExamples.csprojAssemblyReference.cache
-C:\Users\rmhar\WorkProjects\DaemonExample\BusinessObjectExamples\obj\Debug\netstandard2.0\BusinessObjectExamples.dll
-C:\Users\rmhar\WorkProjects\DaemonExample\BusinessObjectExamples\obj\Debug\netstandard2.0\BusinessObjectExamples.pdb

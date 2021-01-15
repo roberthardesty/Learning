@@ -37,7 +37,7 @@ namespace DaemonExample
 
         private void SetUpLogger(ILoggingBuilder loggingBuilder)
         {
-            loggingBuilder.AddProvider(_loggerProvider);
+           // loggingBuilder.AddProvider(_loggerProvider);
         }
 
         private void SetUpDI(ContainerBuilder containerBuilder)
@@ -57,10 +57,9 @@ namespace DaemonExample
             // register the others
             containerBuilder.RegisterTypes(nonSingletonTypes);
 
-            // registering all types in an assembly as their implemented interfaces
+            // registering all types in an assembly
             var serviceAssembly = Assembly.GetExecutingAssembly();
-            containerBuilder.RegisterAssemblyTypes(serviceAssembly)
-                   .AsImplementedInterfaces();
+            containerBuilder.RegisterAssemblyTypes(serviceAssembly);
 
             // Set up configuration to read from appropriate file
             IConfiguration configuration = new ConfigurationBuilder()
